@@ -8,7 +8,6 @@ export const FooterWrapper = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  /* justify-content: center; */
   margin-top: 4em;
   margin-bottom: 0px;
 `;
@@ -124,7 +123,7 @@ export const FooterEnd = styled.div`
   color: #ae3728;
   font-size: 1.1em;
   font-weight: bold;
-  margin-top: 14.5em;
+  margin-top: 13.9em;
   display: flex;
   flex-direction: ${({ isMobile }) => (isMobile ? "column" : "row")};
   justify-content: space-between;
