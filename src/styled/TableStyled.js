@@ -13,6 +13,7 @@ export const TableContentWrapper = styled.div`
   .tableHeading {
     padding: 0px 0px 20px 20px;
     border-bottom: 1px solid tomato;
+    border-left: 1px solid tomato;
     color: #000;
     font-size: 1em;
     font-weight: 700;
