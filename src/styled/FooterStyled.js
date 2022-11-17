@@ -85,14 +85,11 @@ export const FooterMailWrapper = styled.div`
     transform: ${({ isMobile }) => isMobile ? "rotate(0deg)" : "rotate(-45deg)"};
     border-radius: 100%;
     background-color: #6b66da;
-    padding: 10px 10px;
+    padding: 10px;
     font-size: 2.5em;
     color: #fff;
     border: none;
-    margin-right: -1em;
-    /* flex: 1; */
-    /* width: ${({ isMobile, isLess }) =>
-      isLess ? "50px" : isMobile ? "15%" : "13%"};  */
+    margin-right: ${({ isMobile }) => isMobile ? "0px" : "-1em"};
       width: 70px;
     :hover {
       background-image: url("https://global-uploads.webflow.com/625593a881b8ebd169835ca5/62686ffec209d22a4cbac941_button-rainbow-bg.png");
@@ -110,7 +107,6 @@ export const FooterMailWrapper = styled.div`
     font-size: 2.5em;
     font-weight: 700;
     border-radius: ${({ isMobile }) => (isMobile ? "999px" : "0px")};
-    /* text-align: center; */
   }
 
   .emailOutput {
